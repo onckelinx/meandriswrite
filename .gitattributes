@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# Dev-only: left out of the public copy (git archive).
+/CLAUDE.md export-ignore
+/docs export-ignore

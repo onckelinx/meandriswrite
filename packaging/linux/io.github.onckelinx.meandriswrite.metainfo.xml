@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AppStream metadata: what software centers (Discover, GNOME Software) show about the app. -->
+<component type="desktop-application">
+  <id>io.github.onckelinx.meandriswrite</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Meandris Write</name>
+  <summary>Lightweight text and Markdown editor</summary>
+  <developer id="io.github.onckelinx">
+    <name>Rik Onckelinx - meandris.ai</name>
+  </developer>
+
+  <description>
+    <p>
+      A very small, fast, native text and Markdown editor with a live preview. It opens
+      instantly, keeps your files exactly as they were, and shows Markdown as source,
+      rendered, or side by side.
+    </p>
+    <ul>
+      <li>Tabs, find, word wrap, printing and PDF export</li>
+      <li>Markdown in Source, Split and Preview views</li>
+      <li>Paste as Markdown turns text copied from a web page or chatbot into Markdown</li>
+      <li>Reloads files that change on disk and never loses unsaved work silently</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">meandriswrite.desktop</launchable>
+  <url type="homepage">https://github.com/onckelinx/meandriswrite</url>
+  <url type="bugtracker">https://github.com/onckelinx/meandriswrite/issues</url>
+  <categories>
+    <category>Utility</category>
+    <category>TextEditor</category>
+  </categories>
+  <provides>
+    <binary>meandriswrite</binary>
+    <mediatype>text/markdown</mediatype>
+  </provides>
+  <content_rating type="oars-1.1"/>
+
+  <releases>
+    <release version="1.0.0" date="2026-10-12"/>
+  </releases>
+</component>

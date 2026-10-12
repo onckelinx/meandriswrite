@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Meandris Write
+Comment=Lightweight text and Markdown editor
+Exec=meandriswrite %F
+Icon=meandriswrite
+Terminal=false
+Categories=Utility;TextEditor;
+MimeType=text/plain;text/markdown;
